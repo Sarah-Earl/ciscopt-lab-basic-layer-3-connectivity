@@ -45,7 +45,7 @@ I then verified the ports were on the correct VLANs and verified that the device
 
 ## Step 3: Connecting the switch to the router
 
-After verifying that layer 2 connectivity is working as expected, I configured a trunk port on the switch and the subinterfaces on the router. 
+After verifying that layer 2 connectivity is working as expected, I configured a trunk port on the switch and the subinterfaces on the router, assigning the relevant default gateway. 
 
 ```bash
 Switch
